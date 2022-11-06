@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!-- <table> - abrir tabela e colocar borda e tamanho-->
+    <!-- <tr> - para abrir para definir linha-->
+    <!-- <th> - para definir cabeçalho da coluna-->
+    <!-- <td> - para definir coluna-->
+    <h1>Tabelas</h1>
+    <table border="1" width="20%"> 
+		<tr> 
+			<th>Código</th>
+			<th>Produto</th>
+			<th>Preço</th>
+		</tr>
+		<tr>
+			<td>001</td>
+			<td>Tablet</td>
+			<td>800,00</td>
+		</tr>
+		<tr>	
+			<td>002</td>
+			<td>Nintendo Switch</td>
+			<td>2.400,00</td>
+		</tr>
+
+        <!-- Atributos:
+        rowspan="2"- mesclar 2 linhas
+        colspan="2"- mesclar 2 colunas-->
+		<tr>
+			<td rowspan="2">Desconto</td>
+			<td colspan="2">cupom1 -R$ 10,00</td>
+		</tr>
+		<tr>
+			<td colspan="2">cupom2 -R$8,00</td>
+		</tr>
+		<tr>
+			<td>Total do Pedido:</td>
+			<td colspan="2">R$ 3.182,00</td>
+		</tr>
+	</table>
+	
+    <!--Dicas emmet:
+    digite: table>tr*3>td*5
+    pra formar tabela na quantidade que deseja
+    *ctrl+espaço se nao aparecer
+    
+    -->
+	
+
+	</table>
+</body>
+</html>
